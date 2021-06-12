@@ -20,7 +20,7 @@ while True:
         continue
     break
 
-# Function to work with hash
+# Function to work with hashfiles
 def hash(file, alg):
     if alg == 'MD5':
         hash = hashlib.md5()
